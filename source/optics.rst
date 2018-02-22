@@ -35,17 +35,16 @@ Netplane & Mirror の起動
    
    以後，「実行」という場合，|runbutton| Run ボタンをクリックすることを指す．
 
-Optics 調整開始
----------------
+Optics 調整目標の設定
+---------------------
 
 操作
 ~~~~
 
-1. OPTICS2.vi を実行する．
-2. Select Net Plane, |theta|/degree, 1st Mirror Angle, 2nd Mirror Angle を設定し，右上の Start "OK" をクリックして開始する．
-3. Check BL-WS GUI! および Check I0 gas! が表示されたら，BL-WS が動作していること，I0 ガスが適切に設定されていること確認して，POK をクリックする．
-4. Close MBS&DSS! という Window が表示されたら，指示通り **MBS と DSS を手動で閉じてから，OK をクリックする**．
-5. 続いて，TCStage_TCP... という Window が表示されるが何も操作する必要は無い．
+1. Select Net Plane, |theta|/degree, 1st Mirror Angle, 2nd Mirror Angle を設定し，右上の Start "OK" をクリックして開始する．
+2. Check BL-WS GUI! および Check I0 gas! が表示されたら， **BL-WS が動作していること，I0 ガスが適切に設定されていること確認して，OK をクリックする**．
+3. Close MBS&DSS! という Window が表示されたら，指示通り **MBS と DSS を手動で閉じてから，OK をクリックする**．
+4. 続いて，TCStage_TCP... という Window が表示されるが何も操作する必要は無い．
 
 .. note::
 
@@ -75,16 +74,16 @@ Optics 調整開始
 .. figure:: _static/optics/images/5.png
    :alt: TC Stage の調整
    
-   TC Stage の調整
+   TC Stage の調整	
 
-Optics 調整
------------
+Optics 調整の開始
+-----------------
 
 操作
 ~~~~
 
-1. Close MBS&DSS! という Window が表示されたら，指示通り MBS と DSS を手動で開けてから，OK をクリックする．
-2. Check LOCAL+REMOTE Mode! Open DSS Manually! という Window が表示されるので，DSS を手動で開けたことを確認してから，LOCAL+REMOTE モードに設定する．
+1. Close MBS&DSS! という Window が表示されたら，指示通り **MBS と DSS を手動で開けてから，OK をクリックする**．
+2. Check LOCAL+REMOTE Mode! Open DSS Manually! という Window が表示されるので，**DSS を手動で開け，LOCAL+REMOTE モードに設定してから，OK をクリックする**．
 
 .. figure:: _static/optics/images/6.png
    :alt: Open MBS&DSS!
@@ -95,6 +94,9 @@ Optics 調整
    :alt: Check LOCAL+REMOTE Mode! Open DSS Manually!
    
    Check LOCAL+REMOTE Mode! Open DSS Manually!
+
+二結晶分光器平行度の粗調整
+--------------------------
 
 操作
 ~~~~
@@ -117,6 +119,9 @@ Optics 調整
    
    二結晶分光器 |Delta|\ |theta|\ 1 移動位置の指定
 
+二結晶分光器平行度の精密調整
+----------------------------
+
 操作
 ~~~~
 
@@ -137,6 +142,10 @@ Optics 調整
    :alt: Move_ReScan.vi
    
    二結晶分光器 |Delta|\ |theta|\ 1 Piezo 素子移動位置の指定
+
+上流スリットの調整
+------------------
+
 
 操作
 ~~~~
@@ -171,6 +180,8 @@ Optics 調整
    
    4D Slit Rescan? この場合，\|\ |Delta|\ |alpha|\| < 10 pulse なので，Cancel(Next Step) をクリックする．
 
+二結晶分光器平行度の精密調整(2)
+-------------------------------
 
 操作
 ~~~~
@@ -193,6 +204,9 @@ Optics 調整
    
    二結晶分光器 |Delta|\ |theta|\ 1 Piezo 素子移動位置の指定
 
+後置集光ミラーの高さ調整
+------------------------
+
 操作
 ~~~~
 
@@ -213,6 +227,9 @@ Optics 調整
    :alt: Move_ReScan.vi
    
    2nd Mirror 移動位置の指定
+
+スリット (2) 位置の調整
+-----------------------
 
 操作
 ~~~~
@@ -235,6 +252,9 @@ Optics 調整
    
    TC Slit2 の移動位置の指定
 
+スリット (3) 位置の調整
+-----------------------
+
 操作
 ~~~~
 
@@ -256,6 +276,9 @@ Optics 調整
    
    TC Slit 3 の移動位置の指定
 
+測定用定盤の高さ調整
+--------------------
+
 操作
 ~~~~
 
@@ -276,6 +299,9 @@ Optics 調整
    :alt: Move_ReScan.vi
    
    Stage の移動位置の指定
+
+最終調整
+--------
 
 操作
 ~~~~
