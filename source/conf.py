@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Unofficial Manual for BL01B1'
-copyright = '2020, ASAKURA, Hiroyuki'
+copyright = '2023, ASAKURA, Hiroyuki'
 author = 'ASAKURA, Hiroyuki'
 
 # The short X.Y version
